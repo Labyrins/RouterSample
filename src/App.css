@@ -17,6 +17,10 @@
 .App-intro {
   font-size: large;
 }
+.header {
+  padding:10px 40px;
+  background: #eee;
+}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }

@@ -5,13 +5,17 @@ export default React.createClass({
   render() {
     return (
       <div>
-        <h1>react practice</h1>
-        <ul >
-          <li><Link to="/one">One</Link></li>
-          <li><Link to="/two">Two</Link></li>
-        </ul>
-        {this.props.children}
+      <div className="header">
+          <Link to="/one" className="menu">One</Link>
+          <Link to="/two" className="menu">Two</Link>
       </div>
+        <div className="container">
+          <div className="content">
+            {this.props.children}
+          </div>
+        </div>
+        </div>
+
     );
   }
 })
