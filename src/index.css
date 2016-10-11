@@ -15,6 +15,7 @@ body {
 .menu {
   padding:10px 10px;
   display: inline-block;
+  text-decoration: none;
 }
 .nav {
   float: left;

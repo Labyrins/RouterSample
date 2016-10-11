@@ -10,11 +10,18 @@ export default React.createClass({
           <Link to="/two" className="menu">Two</Link>
       </div>
         <div className="container">
+          <div className="nav">
+            <ul className="nav-list">
+              <li><a href="" className="nav-link">One</a></li>
+              <li><a href="" className="nav-link">Two</a></li>
+              <li><a href="" className="nav-link">Three</a></li>
+            </ul>
+          </div>
           <div className="content">
             {this.props.children}
           </div>
         </div>
-        </div>
+      </div>
 
     );
   }
